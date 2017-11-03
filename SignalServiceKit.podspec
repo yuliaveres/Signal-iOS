@@ -33,7 +33,6 @@ An Objective-C library for communicating with the Signal messaging service.
   s.xcconfig = { 'OTHER_CFLAGS' => '$(inherited) -DSQLITE_HAS_CODEC' }
 
   s.dependency '25519'
-  s.dependency 'CocoaLumberjack'
   s.dependency 'AFNetworking'
   s.dependency 'AxolotlKit'
   s.dependency 'Mantle'
